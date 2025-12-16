@@ -1,5 +1,5 @@
 image:
   repository: "484468819850.dkr.ecr.ap-south-1.amazonaws.com/namespace/repo22"  # Replace with your image repository path
-  tag: "v10"  # Replace with the desired image tag
+  tag: "v11"  # Replace with the desired image tag
 
 replicaCount: 1
