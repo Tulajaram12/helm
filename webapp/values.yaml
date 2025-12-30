@@ -1,4 +1,4 @@
-image: tulajaram/githubactions:v7
+image: tulajaram/githubactions:31
   repository: "484468819850.dkr.ecr.ap-south-1.amazonaws.com/namespace/repo22"  # Replace with your image repository path
   tag: "v12"  # Replace with the desired image tag
 
