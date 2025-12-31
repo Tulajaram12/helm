@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: flask-helm-ingress
+  name: flask-new-ingress
   annotations:
     kubernetes.io/ingress.class: alb
 
@@ -16,7 +16,7 @@ metadata:
     alb.ingress.kubernetes.io/healthcheck-path: /
 
     # Optional: group multiple ingresses on same ALB
-    alb.ingress.kubernetes.io/group.name: flask-app-5
+    alb.ingress.kubernetes.io/group.name: flask-app-new
 spec:
   rules:
     - http:
