@@ -1,5 +1,5 @@
 image: 
   repository: tulajaram/githubactions
-  tag: 34
+  tag: 35
 
 replicaCount: 1
